@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opa! Tem pessoas demais!</title>
+    <link rel="icon" href="./src/img/ico_head.png">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body background="./src/img/bg_netflix.png">
+
+    <div id="myNav" class="menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="menu-content">
+            <a href="#">Perfil</a>
+            <a href="#">Configurações</a>
+            <a href="#">Trocar de Perfil</a>
+            <a href="#">Centro de Ajuda</a>
+            <a href="#">Segurança</a>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+            <h6>Desenvolvido por Henrique Maia</h6>
+        </div> 
+    
+    </div>
+
+
+    <nav>
+        <img class="logo" src="./src/img/logo.png">
+        <div class="perfil">
+            <div class="botaoPerfil">
+                <img onclick="openNav()" src="./src/img/btn_perfil.png" alt="perfil">
+            </div>
+            <div class="fotinha">
+                <img onclick="openNav()" src="./src/img/foto-perfil.jpeg" alt="profile">
+            </div>
+    
+        </div>
+    </nav>
+      
+    <main id="avisoPlano" class="passo Selecionado">
+        <div class="principal">
+            <img src="./src/img/icon_principal.png">
+            <p style="font-family: 'Roboto', sans-serif;">
+            Ops! Pessoas demais assistindo na sua conta. 
+            </p>
+            <p class="txt_ops" style="font-family: 'Roboto', sans-serif;">
+            Para continuar a assistir mude o seu plano ou encerre a sessão em algum dos aparelhos a seguir:
+            </p>
+        </div>
+        <div class="who">
+            <ul>
+            <li><p class="txt_who" style="font-family: 'Roboto', sans-serif;">
+                <strong>iPhone</strong> - Para Todos os Garotos que Já Amei (João da Silva)
+            </p>
+            </li>
+            <li><p class="txt_who" style="font-family: 'Roboto', sans-serif;">
+                <strong>TV</strong> - Meu amigo Vampiro (Tamires)
+            </p>
+            </li>
+            </ul>
+        </div>
+        <div class="click_area">
+            <label class="option"><p>TENTAR NOVAMENTE</p></label>
+            <label class="option"><p>VOLTAR</p></label>
+        </div>
+            <label class="btn_upgd" onclick="trocaTela()">
+                <p>MUDAR PARA QUATRO TELAS</p>
+            </label>
+            <p align="center">
+                Dúvidas? Acesse nossa <a style="font-size: 12px;" href="#">central de ajuda</a>
+            </p>
+        </div>
+    </main>
+    <main id="trocarPlano" class="passo">
+        <div class="imgPlano">
+        <img src="./src/img/img_group.png" alt="logo_pg2">
+        </div>
+        <h2 style="font-family: 'Roboto', sans-serif;" align="center">
+            Você solicitou melhoria do plano de 2 telas para <span style="color:#E50913; font-weight: bold; font-size: 15px;">4 telas</span>, </br> 
+            e não só a quantidade de telas que vai mudar:
+        </h2>
+        <div class="who2">
+            <p class="txtPlano" style="font-family: 'Roboto', sans-serif;">
+                O valor do seu plano vai de R$39,90 para <span>R$55,90</span>, e será cobrado agora no
+                dia <span>12</span> de cada mês devido a esta mudança no valor contratado.
+            </p>
+            <div id="open-modal" class="saibaMais">
+                <p style="font-family: 'Roboto', sans-serif;">
+                    Saiba mais
+                </p>
+            </div>
+        </div>
+        <div class="click_area">
+            <label class="option" onclick="voltar()"><p>CANCELAR</p></label>
+            <label class="botaoTrocar">
+                <p>OK, TROCAR PLANO!</p>
+            </label>
+        </div>
+
+        <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+        <div class="modal-header">
+            <h1>Cobrança Proporcional dos Planos</h1>
+            <button id="close-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+            <p>Os planos são mensais e pré-pagos. Assim, cada um dos valores contratados
+                são divididos pelos 30 dias de crédito do plano.
+            </p>
+            <p>Com o plano de <span style="color:#E50913">2 telas</span> ativo, é cobrado R$1,33/dia. Ao contratar o plano de
+                <span style="color:#E50913; font-weight: bold;">4 telas</span>, cada dia passa a valer R$1,86/dia e o crédito restante não será
+                suficiente para cobrir a vigência de 30 dias do plano anterior, então a data
+                da cobrança retrocede para que a próxima seja realizada corretamente.
+            </p>
+        </div>
+        </div>
+    
+    </main>
+    
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
