@@ -18,13 +18,13 @@ A seguir se encontram as telas que constituem o fluxo de navegação do Usuário
 ### Detalhamento 1: Sugerindo a mudança de plano de Assinatura:
 ![Page2](https://github.com/TyHenry96/netflixUxui/blob/main/src/img/page2.png) </br>
 ### Detalhamento 2: Visualização da pop-up explicando detalhes da alteração de data de pagamento:
-![Page3](https://github.com/TyHenry96/netflixUxui/blob/main/src/img/page3.png) </br>
+![Page4](https://github.com/TyHenry96/netflixUxui/blob/main/src/img/page4.png) </br>
 ### CTA: 
-![Page4](https://github.com/TyHenry96/netflixUxui/blob/main/src/img/page4.png)
+![Page3](https://github.com/TyHenry96/netflixUxui/blob/main/src/img/page3.png) 
 ## Observações
 * investigar a possibilidade desta tela para plataforma mobile
 * alterar mudanças de estado dos botões
-*foram adicionados elementos visuais (menu lateral ao clicar na foto do perfil) para complementar a experiência do usuário enquanto na página da plataforma.
+* foram adicionados elementos visuais (menu lateral ao clicar na foto do perfil) para complementar a experiência do usuário enquanto na página da plataforma.
 ### Autor
 Henrique Maia Tolentino </br>
 [Linkedin](https://www.linkedin.com/in/henrique-maya/)
